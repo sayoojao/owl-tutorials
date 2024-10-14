@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+
+    <t t-name="owl_workshop_counter.Workshop">
+        <div class="container">
+            <div class="container-fluid pt-3">
+                <button type="button" class="btn" t-on-click="valueIncrement">+</button>
+                <t t-out="state.value"/>
+                <button type="button" class="btn" t-on-click="valueDecrement">-</button>
+            </div>
+            <div>
+                <t t-out="state.change"/>
+            </div>
+            <div>
+                <button type="button" class="btn" t-on-click="fetchRefValue">Fetch Value</button>
+            </div>
+            <div class="for-use-ref" t-ref="contactDetails">
+                <span>Contact Details</span>
+            </div>
+            <div>
+                <button type="button" class="btn" t-on-click="ormServices">ORM Services</button>
+            </div>
+            <div>
+                <button type="button" class="btn" t-on-click="createSaleOrder">Create Sale Order</button>
+            </div>
+        </div>
+
+    </t>
+
+</templates>

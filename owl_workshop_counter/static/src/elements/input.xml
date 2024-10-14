@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="owl_workshop_counter.Input">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"/>
+        </div>
+    </t>
+</templates>

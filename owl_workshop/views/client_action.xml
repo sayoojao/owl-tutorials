@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record model="ir.actions.client" id="workshop_main_view">
+            <field name="name">Workshop</field>
+            <field name="tag">workshop</field>
+        </record>
+
+        <menuitem name="Workshop" id="menu_workshop_action" action="owl_workshop.workshop_main_view" sequence="1"/>
+    </data>
+</odoo>

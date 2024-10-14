@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-inherit="owl_workshop.Workshop" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('container-fluid')]" position="inside">
+            <button type="button" class="btn btn-danger" t-on-click="loadDemoData">Load Demo Data</button>
+        </xpath>
+    </t>
+</templates>
